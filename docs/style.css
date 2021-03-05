@@ -27,7 +27,7 @@ h1, h2, h3, h4, h5, h6 {
     flex: none;
     background-color: white;
     padding: 10px;
-    margin: 10px 0px;
+    margin: 10px 10px;
     border-radius: 10px;
     text-align: center;
     perspective: 1000px;
