@@ -1,3 +1,7 @@
+h1 {
+    text-align: center;
+}
+
 body {
     background-color: rgb(139, 231, 231);
     padding: 0px 10px;
@@ -30,14 +34,9 @@ body {
     margin: 10px;
 }
 
-.card-title-english, .card-title-spanish {
-    margin: 10px 0px;
-    font-weight: bold;
-    font-size: 2rem;
-}
-
-.hidden {
-    display: none;
+a:visited, a:link{
+    color: black;
+    text-decoration: none;
 }
 
 footer {
