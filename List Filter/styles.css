@@ -1,0 +1,51 @@
+body {
+    background-color: #d1f8d8;
+    padding: 0px 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.search-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+#search-bar {
+    width: 50vw;
+    height: 50px;
+    border-radius: 15px;
+    border: none;
+    font-size: large;
+    padding: 0 15px;
+}
+
+.list-activities {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.activity {
+    flex: none;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 15px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: larger;
+    min-width: 275px;
+}
+
+.activity img {
+    width: 15vw;
+    margin: 10px;
+}
+
+.hidden {
+    display: none;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Client Side Form</title>
+    <link rel="stylesheet" href="styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div class="form-container">
+        <form id="client-form">
+            <label for="name">
+                Name:
+            </label>
+            <label for="name" class="hidden error" id="name-error">Please enter your name.</label> 
+            <input class="input" type="text" id="name" name="name">
+
+            <label for="address">
+                Address:
+            </label>
+            <label for="address" class="hidden error" id="address-error">Please enter your address.</label> 
+            <input class="input" type="text" id="address" name="address">
+
+            <label for="age">
+                Age:
+            </label>
+            <label for="age" class="hidden error" id="age-error">Please enter your age.</label> 
+            <input class="input" type="number" id="age" name="age">
+
+            <label for="pets">
+                Do you have pets?
+            </label>
+            <input type="checkbox" id="pets" name="pets">
+            <div class="hidden" id="dropdown">
+                <label for="pet-type" id="pet-type">
+                    What type of pet?
+                </label>
+                <br>
+                <select id="pet-type" name="pet-type">
+                    <option value="dog">
+                        Dog
+                    </option>
+                    <option value="cat">
+                        Cat
+                    </option>
+                    <option value="bird">
+                        Bird
+                    </option>
+                    <option value="other">
+                        Other
+                    </option>
+                </select>
+            </div>
+
+            <input id="submit" type="submit" value="Book Appointment">
+        </form>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
